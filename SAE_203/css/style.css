@@ -1,0 +1,79 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5em;
+    background-color: rgb(72, 99, 148);
+}
+.logo1{
+    width: 190px;
+    height: 150px;
+    float: left;
+}
+.logo2{
+    width: 190px;
+    height: 130px;
+    float: right;
+}
+table{
+    width: auto;
+    background-color: green;
+    border-collapse: collapse;
+}
+
+.table.table-bordered.mx-auto{
+    width: auto;
+}
+
+.centered-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color:rgb(231, 231, 231);
+    font-family: "Ultra", serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+h2{
+    color:rgb(231, 231, 231);
+}
+p{
+    color:rgb(231, 231, 231);
+}
+nav{
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(134, 161, 211);
+    border-radius: 10px;
+    margin-top: 65px;
+}
+.nav-link{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+    transition: color 0.3s ease;
+}
+td,th{
+    background-color: rgb(134, 161, 211) !important;
+    color: rgb(231, 231, 231)!important;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.dropdown-menu {
+	background-color: rgb(134, 161, 211); /* même couleur que nav */
+}
+
+.dropdown-item {
+	color: white;
+}
+
+.dropdown-item:hover {
+	background-color: rgba(255,255,255,0.1);
+	color: white;
+}
